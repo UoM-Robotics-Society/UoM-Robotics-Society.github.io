@@ -11,17 +11,18 @@
     <header>
         <h1>Hack-A-Bot 2025</h1>
         <div class="dropdown">
-            <button>Menu</button>
+            <button class="menu-button">Menu</button>
             <div class="dropdown-content">
                 <a href="#Home">Home</a>
                 <a href="#About">About</a>
                 <a href="#Services">Services</a>
-                <a href="#Contact">Contact</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Social">Contact</a>
                 <a href="#Sponsors">Sponsors</a> <!-- Link to Sponsors section -->
             </div>
         </div>
         <!-- Light/Dark Mode Toggle -->
-        <button id="mode-toggle" onclick="toggleMode()">🌙</button>
+        <button class="mode-button" id="mode-toggle" onclick="toggleMode()">🌙</button>
     </header>
 
     <!-- Main Body -->
@@ -52,12 +53,22 @@
             <p>We offer a wide range of services to help you achieve your goals. Our team specializes in cutting-edge technology and problem-solving. Whether you need assistance with coding, robotics, or tech innovations, we are here to help!</p>
         </section>
 
-        <!-- Contact Section -->
-        <section id="Contact">
-            <h2>Contact</h2>
-            <p>If you have any questions or need further information, feel free to reach out to us. You can contact us through email, or follow us on social media.</p>
+        <!-- Project Information -->
+        <section id="Projects">
+            <h2>Projects</h2>
+            <h3>1. Nuclear Rover</h3>
+            <h4>Create a Teleoperated Nuclear Rover for Completing a Series of Tasks.</h4>
+            <ul><b>Each team must build a rover using the kits provided to safetly dispose of 'nuclear waste':</b> 
+                <li>The team cannot see their rover whilst operating it, use bluetooth and Wifi to create a remote control system</li>
+                <li>Each ‘safe’ barrel is worth 2 points and a ‘damaged’ barrel is worth 1 point. The team who has the most points after 5 minutes wins!!! </li>
+                <li>Barrels must be transported from a start location into the designated ‘safe zone’</li>
+                <li>‘Safe’ barrels are transported without reaching the threshold of being shaken too much. </li>
+                <li>‘Damaged’ barrels are barrels are transported reaching the threshold of being shaken too much. </li>
+            </ul>
+        </section>
 
-            <!-- Social Media Links -->
+        <!-- Social Media Links -->
+        <section id="Projects">
             <div class="social-media">
                 <a href="https://www.instagram.com/uom_robosoc/" target="_blank" title="Instagram">
                     <img src="pictures/social-links/Instagram-logo.png" alt="Instagram" width="50">
@@ -68,8 +79,36 @@
             </div>
         </section>
 
+        <!-- Event Organisers Section -->
+        <section id="Organisers">
+            <h2>Event Organisers</h2>
+            <div class="organisers-grid">
+                <div class="organiser-card">
+                    <img src="pictures/organisers/organiser1.jpg" alt="Organiser 1">
+                    <p class="organiser-name">Ted Donnan</p>
+                    <p class="organiser-role">Events Team</p>
+                </div>
+                <div class="organiser-card">
+                    <img src="pictures/organisers/organizer2.jpg" alt="Organiser 2">
+                    <p class="organiser-name">Isabel Wilkinson</p>
+                    <p class="organiser-role">Events Team</p>
+                </div>
+                <div class="organiser-card">
+                    <img src="pictures/organisers/archie.jpg" alt="Organiser 3">
+                    <p class="organiser-name">Archie James</p>
+                    <p class="organiser-role">Events Team</p>
+                </div>
+                <div class="organiser-card">
+                    <img src="pictures/organisers/organiser4.jpg" alt="Organiser 4">
+                    <p class="organiser-name">Thierry Popat</p>
+                    <p class="organiser-role">President</p>
+                </div>
+            </div>
+        </section>
+
+
         <!-- Sponsors Section -->
-        <section id="Sponsors" class="sponsor-section">
+        <section id="Sponsors">
             <h2>Event Sponsors</h2>
             <div class="sponsor-logos">
                 <img src="pictures/sponsor-logos/sony-logo.png" alt="Sponsor 1">
