@@ -354,6 +354,7 @@ body.dark-mode .organiser-role {
     header {
         flex-direction: column; /* Stack elements vertically for better mobile layout */
         align-items: center; /* Center-align the header content */
+        justify-content: center; /* Center the content horizontally */
     }
 
     /* Adjust header font size */
@@ -370,6 +371,7 @@ body.dark-mode .organiser-role {
         font-size: 14px; /* Smaller font size for mobile */
         padding: 8px 12px; /* Adjust padding */
         min-width: 120px; /* Set a max width to prevent it from being too wide */
+        margin: auto; /* Center the button horizontally */
     }
 
     /* Mode button adjustments */
