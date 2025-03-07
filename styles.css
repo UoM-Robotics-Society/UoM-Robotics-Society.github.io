@@ -350,18 +350,18 @@ body.dark-mode .organiser-role {
 
     /* Dropdown button and content */
     .menu-button {
-        font-size: 16px;
-        padding: 8px 15px;
+        font-size: 12px;
+        padding: 4px 6px;
     }
 
     .dropdown-content {
-        min-width: 140px;
+        min-width: 80px;
     }
 
     /* Mode button adjustments */
     .mode-button {
-        font-size: 16px;
-        padding: 8px 12px;
+        font-size: 12px;
+        padding: 4px 6px;
     }
 
     /* Section adjustments */
@@ -378,12 +378,16 @@ body.dark-mode .organiser-role {
 
     /* Tickets section adjustments */
     .Ticket-Links {
-        flex-direction: column;  /* Stack ticket text and images */
+        display: flex;
+        justify-content: center; /* Center the content */
+        flex-direction: column;  /* Stack text and images */
         align-items: center;
+        padding: 20px;
+        font-size: 1.5em;
     }
 
     .Ticket-Links img {
-        max-width: 60%;  /* Make images smaller for mobile */
+        max-width: 70%;  /* Make images smaller for mobile */
         margin-top: 10px;
     }
 
