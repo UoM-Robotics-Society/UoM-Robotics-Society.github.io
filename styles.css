@@ -350,8 +350,7 @@ body.dark-mode .organiser-role {
 
     /* Dropdown button and content */
     .menu-button {
-        font-size: 12px;
-        padding: 4px 6px;
+        min-width: 80px;
     }
 
     .dropdown-content {
@@ -360,8 +359,7 @@ body.dark-mode .organiser-role {
 
     /* Mode button adjustments */
     .mode-button {
-        font-size: 12px;
-        padding: 4px 6px;
+        max-width: 60px;
     }
 
     /* Section adjustments */
