@@ -339,6 +339,12 @@ body.dark-mode .organiser-role {
 
 /* Responsive design for mobile and tablets */
 @media screen and (max-width: 768px) {
+    /* Adjust header layout */
+    header {
+        flex-direction: column; /* Stack elements vertically for better mobile layout */
+        align-items: center; /* Center-align the header content */
+    }
+
     /* Adjust header font size */
     header h1 {
         font-size: 28px;
@@ -350,8 +356,16 @@ body.dark-mode .organiser-role {
 
     /* Dropdown button and content */
     .menu-button {
-        min-width: 80px;
+        font-size: 14px; /* Smaller font size for mobile */
+        padding: 8px 12px; /* Adjust padding */
+        min-width: 120px; /* Set a max width to prevent it from being too wide */
     }
+
+    /* Menu dropdown alignment */
+    .dropdown {
+        margin: 10px 0; /* Add spacing between elements */
+    }
+}
 
     .dropdown-content {
         min-width: 80px;
@@ -359,7 +373,9 @@ body.dark-mode .organiser-role {
 
     /* Mode button adjustments */
     .mode-button {
-        max-width: 60px;
+        font-size: 14px; /* Smaller font size for mobile */
+        padding: 8px 12px; /* Adjust padding */
+        min-width: 120px; /* Set a max width to prevent it from being too wide */
     }
 
     /* Section adjustments */
