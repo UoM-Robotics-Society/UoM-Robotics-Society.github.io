@@ -96,7 +96,6 @@ body.dark-mode h2 {
 
 /* Dropdown Menu */
 .dropdown {
-    margin-left: auto; /* Pushes the dropdown (and its button) to the right */
     position: relative; /* Needed for absolute positioning of the dropdown */
 }
 
@@ -389,7 +388,7 @@ body.dark-mode .organiser-role {
 
     /* Scrolling images section */
     .scrolling-images img {
-        width: 90%;  /* Resize the images on mobile */
+        width: 120%;  /* Resize the images on mobile */
         margin-right: 10px;
     }
 
@@ -404,7 +403,7 @@ body.dark-mode .organiser-role {
     }
 
     .Ticket-Links img {
-        max-width: 40%;  /* Make images smaller for mobile */
+        max-width: 30%;  /* Make images smaller for mobile */
         margin-top: 10px;
     }
 
