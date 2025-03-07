@@ -17,7 +17,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 /* Dark mode styles */
 body.dark-mode {
@@ -189,16 +199,21 @@ body.dark-mode .Ticket-Links h2{
     display: block; /* Ensure the image behaves as a block-level element */
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
     color: white; /* Ensure white font color for title */
+    text-shadow: 1px 1px 2px #121212; /* Border for the text */
 }
+
 h2 {
     color: #333; /* Default color for subheadings in light mode */
 }
+
 .date{
     padding-left: 10px;
     padding-right: 20px;
-    color: white;
+    color: white; /* Ensure white font color for date */
+    font-size: 50px;
+    text-shadow: 1px 1px 2px #121212; /* Border for the text */
 }
 
 p {
@@ -343,11 +358,11 @@ body.dark-mode .organiser-role {
 
     /* Adjust header font size */
     header h1 {
-        font-size: 28px;
+        font-size: 50px;
     }
 
     header h2.date {
-        font-size: 16px;
+        font-size: 50px;
     }
 
     /* Dropdown button and content */
@@ -405,6 +420,8 @@ body.dark-mode .organiser-role {
     /* Sponsors section */
     .sponsor-logos {
         grid-template-columns: repeat(2, 1fr);  /* 2 columns for sponsor logos */
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
     }
 
     /* Countdown font size */
