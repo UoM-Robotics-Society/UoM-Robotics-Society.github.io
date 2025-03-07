@@ -11,7 +11,7 @@ body {
 /* Header styles */
 header {
     background-color: rgba(8, 190, 8, 0.94);
-    color: black;
+    color: white;
     padding: 10px 20px;
     text-align: center;
     display: flex;
@@ -190,6 +190,7 @@ body.dark-mode .Ticket-Links h2{
 }
 h1{
     font-size: 40px;
+    color: white; /* Ensure white font color for title */
 }
 h2 {
     color: #333; /* Default color for subheadings in light mode */
@@ -199,7 +200,6 @@ h2 {
     padding-right: 20px;
     color: white;
 }
-
 
 p {
     font-size: large;
@@ -216,7 +216,6 @@ ul {
 ul li {
     margin-bottom: 10px; /* Optional: adds space between each list item */
 }
-
 
 /* Social Media Icons */
 .social-media {
@@ -243,15 +242,10 @@ body.dark-mode .social-media img {
 /* Sponsor Section */
 .sponsor-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px;
     background-color: #f4f4f4;
-}
-
-.sponsor-section h2 {
-    font-size: 1.5em;
-    color: #333;
 }
 
 .sponsor-logos {
@@ -259,6 +253,7 @@ body.dark-mode .social-media img {
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     width: 70%;
+    justify-content: center;
 }
 
 .sponsor-logos img {
@@ -331,6 +326,7 @@ body.dark-mode .organiser-name {
 body.dark-mode .organiser-role {
     color: #aaa;
 }
+
 .countdown p{
     text-align: center;
     font-size: 60px;
@@ -361,16 +357,6 @@ body.dark-mode .organiser-role {
         min-width: 120px; /* Set a max width to prevent it from being too wide */
     }
 
-    /* Menu dropdown alignment */
-    .dropdown {
-        margin: 10px 0; /* Add spacing between elements */
-    }
-}
-
-    .dropdown-content {
-        min-width: 80px;
-    }
-
     /* Mode button adjustments */
     .mode-button {
         font-size: 14px; /* Smaller font size for mobile */
@@ -386,7 +372,7 @@ body.dark-mode .organiser-role {
 
     /* Scrolling images section */
     .scrolling-images img {
-        width: 80%;  /* Resize the images on mobile */
+        width: 90%;  /* Resize the images on mobile */
         margin-right: 10px;
     }
 
@@ -394,14 +380,14 @@ body.dark-mode .organiser-role {
     .Ticket-Links {
         display: flex;
         justify-content: center; /* Center the content */
-        flex-direction: column;  /* Stack text and images */
+        flex-direction: row;  /* Stack text and images */
         align-items: center;
         padding: 20px;
         font-size: 1.5em;
     }
 
     .Ticket-Links img {
-        max-width: 70%;  /* Make images smaller for mobile */
+        max-width: 40%;  /* Make images smaller for mobile */
         margin-top: 10px;
     }
 
